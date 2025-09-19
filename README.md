@@ -5,13 +5,13 @@ A lightweight console logging utility with timestamps and customizable prefixes.
 ## Installation
 
 ```bash
-npm install @your-username/simple-console-logger
+npm install @geoffrichoctopus/test-npm-package-publish
 ```
 
 ## Usage
 
 ```javascript
-const { createLogger, SimpleLogger } = require('@your-username/simple-console-logger');
+const { createLogger, SimpleLogger } = require('@geoffrichoctopus/test-npm-package-publish');
 
 // Create a logger with a prefix
 const logger = createLogger('MyApp');

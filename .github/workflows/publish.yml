@@ -1,8 +1,14 @@
 name: Publish to NPM
 
 on:
-  release:
-    types: [published]
+  push:
+    branches:
+      - main
+    paths:
+      - 'src/**'
+      - 'package.json'
+      - 'package-lock.json'
+      - '.github/workflows/publish.yml'
 
 jobs:
   publish:
@@ -25,3 +31,5 @@ jobs:
 
       - name: Publish to NPM
         run: npm publish --public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
