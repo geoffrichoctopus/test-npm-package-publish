@@ -1,0 +1,28 @@
+{
+  "name": "@geoffrichoctopus/test-npm-package-publish",
+  "version": "1.0.0",
+  "description": "A simple console logging utility",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "console",
+    "logger",
+    "logging",
+    "utility"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geoffrichoctopus/test-npm-package-publish.git"
+  },
+  "bugs": {
+    "url": "https://github.com/geoffrichoctopus/test-npm-package-publish/issues"
+  },
+  "homepage": "https://github.com/geoffrichoctopus/test-npm-package-publish#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}
