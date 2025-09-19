@@ -23,6 +23,8 @@
   },
   "homepage": "https://github.com/geoffrichoctopus/test-npm-package-publish#readme",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npmjs.org/",
+    "provenance": true
   }
 }
